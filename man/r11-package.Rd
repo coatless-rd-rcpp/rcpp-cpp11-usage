@@ -4,19 +4,26 @@
 \name{r11-package}
 \alias{r11}
 \alias{r11-package}
-\title{r11: Compiling code with C++11}
+\title{r11: Selecting a C++ Standard for a Package}
 \description{
-Compile code inside a package using C++11 instead of the default
-    language specification of C++98.
+Shows how to choose the C++ standard a package compiles against using the 'CXX_STD' field of a 'Makevars' file.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item Report bugs at \url{https://github.com/r-pkg-examples/rcpp-cpp11-usage}
+  \item \url{https://github.com/coatless-rd-rcpp/rcpp-cpp11-usage}
+  \item \url{https://rd-rcpp.thecoatlessprofessor.com/rcpp-cpp11-usage/}
+  \item Report bugs at \url{https://github.com/coatless-rd-rcpp/rcpp-cpp11-usage/issues}
 }
 
 }
 \author{
 \strong{Maintainer}: James Balamuta \email{balamut2@illinois.edu}
 
+Authors:
+\itemize{
+  \item James Balamuta \email{balamut2@illinois.edu}
 }
+
+}
+\keyword{internal}

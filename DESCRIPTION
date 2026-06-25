@@ -1,18 +1,22 @@
 Package: r11
 Type: Package
-Title: Compiling code with C++11
+Title: Selecting a C++ Standard for a Package
 Version: 0.0.0.9000
-Authors@R: person("James", "Balamuta", email = "balamut2@illinois.edu", role = c("aut", "cre"))
-Description: Compile code inside a package using C++11 instead of the default
-    language specification of C++98.
-BugReports: https://github.com/r-pkg-examples/rcpp-cpp11-usage
-License: GPL (>= 2)
-Depends: R (>= 3.4.0)
-LinkingTo: Rcpp,
-    RcppArmadillo
-Imports:
+Authors@R:
+    person(given = "James",
+           family = "Balamuta",
+           role = c("aut", "cre"),
+           email = "balamut2@illinois.edu")
+Description: Shows how to choose the C++ standard a package compiles against
+    using the 'CXX_STD' field of a 'Makevars' file.
+BugReports: https://github.com/coatless-rd-rcpp/rcpp-cpp11-usage/issues
+URL: https://github.com/coatless-rd-rcpp/rcpp-cpp11-usage, https://rd-rcpp.thecoatlessprofessor.com/rcpp-cpp11-usage/
+Depends: R (>= 3.5.0)
+LinkingTo:
     Rcpp
+Imports:
+    Rcpp (>= 1.0.12)
+License: GPL (>= 2)
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 6.1.0
 Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.0.0

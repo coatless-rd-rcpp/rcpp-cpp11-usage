@@ -1,3 +1,6 @@
-^.*\.Rproj$
+^r11\.Rproj$
 ^\.Rproj\.user$
-^\.travis\.yml$
+^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
