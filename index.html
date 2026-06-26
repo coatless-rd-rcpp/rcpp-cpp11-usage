@@ -119,10 +119,10 @@
 <code>DESCRIPTION</code><a class="anchor" aria-label="anchor" href="#description"></a>
 </h3>
 <p>A package can also request a standard through the <code>SystemRequirements</code> field of <code>DESCRIPTION</code>, for example <code>SystemRequirements: C++17</code>. That field-based approach is an alternative to the <code>Makevars</code> <code>CXX_STD</code> shown above, and this package uses the <code>Makevars</code> approach. Surfacing the <em>C++</em> code with <em>Rcpp</em> requires <code>Rcpp</code> under both <code>LinkingTo</code> (for the headers used at compile time) and <code>Imports</code> (so it is available at run time).</p>
-<pre><code>LinkingTo:
-    Rcpp
-Imports:
-    Rcpp (&gt;= 1.0.12)</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode default"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a>LinkingTo:</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>    Rcpp</span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a>Imports:</span>
+<span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a>    Rcpp (&gt;= 1.0.12)</span></code></pre></div>
 </div>
 </div>
 <div class="section level2">

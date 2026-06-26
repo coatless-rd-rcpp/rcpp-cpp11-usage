@@ -117,10 +117,12 @@ above, and this package uses the `Makevars` approach. Surfacing the
 headers used at compile time) and `Imports` (so it is available at run
 time).
 
-    LinkingTo:
-        Rcpp
-    Imports:
-        Rcpp (>= 1.0.12)
+``` default
+LinkingTo:
+    Rcpp
+Imports:
+    Rcpp (>= 1.0.12)
+```
 
 ## License
 
